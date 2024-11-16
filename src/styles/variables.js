@@ -2,20 +2,20 @@ import { css } from 'styled-components';
 
 const variables = css`
   :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
-    --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green: #64ffda;
-    --green-tint: rgba(100, 255, 218, 0.1);
-    --pink: #f57dff;
-    --blue: #57cbff;
+    --dark-navy: #090c10; /* Deep Black-Blue */
+    --navy: #10151e; /* Dark Blue-Grey */
+    --light-navy: #1a2433; /* Muted Steel Blue */
+    --lightest-navy: #2b3a4a; /* Slightly Brighter Navy */
+    --navy-shadow: rgba(9, 12, 16, 0.7); /* Dark Shadow */
+    --dark-slate: #3a4d63; /* Charcoal Slate */
+    --slate: #f5f8fa; /* Cool Slate Grey */
+    --light-slate: #ffffff; /* Balanced Grey-Blue */
+    --lightest-slate: #98a8b9; /* Light Muted Grey */
+    --white: #ffffff; /* Off-White for Contrast */
+    --green: #14e298; /* Neon Green */
+    --green-tint: rgba(20, 226, 152, 0.15); /* Subtle Green Tint */
+    --pink: #e056fd; /* Vibrant Purple-Pink */
+    --blue: #3498db; /* Bright Neon Blue */
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;

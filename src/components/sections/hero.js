@@ -60,21 +60,22 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Kunpeng Zhang.</h2>;
+  // const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I’m a software engineer with expertise in backend development and delivering data-driven
+        insights through statistical analysis. Currently, I’m focused on optimizing the performance
+        of quantum computing experiments at{' '}
+        <a href="https://www.dwavesys.com/" target="_blank" rel="noreferrer">
+          D-Wave Systems.
         </a>
         .
       </p>
     </>
   );
+  /*
   const five = (
     <a
       className="email-link"
@@ -84,8 +85,8 @@ const Hero = () => {
       Check out my course!
     </a>
   );
-
-  const items = [one, two, three, four, five];
+  */
+  const items = [one, two, four];
 
   return (
     <StyledHeroSection>
