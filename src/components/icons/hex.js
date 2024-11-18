@@ -10,7 +10,18 @@ const IconHex = () => (
           strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          points="39 0 0 22 0 67 39 90 78 68 78 23"
+          points="
+          39 0, 
+          19 12, 
+          5 35, 
+          5 61, 
+          19 84, 
+          39 96, 
+          59 84, 
+          73 61, 
+          73 35, 
+          59 12
+        "
           fill="currentColor"
         />
       </g>
